@@ -1,0 +1,145 @@
+<style type="text/css">
+body{
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+.menu-bar
+{
+
+background-color:darkslategray;
+
+width: 100%;
+height:55px;
+position: fixed;
+
+
+}
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+color:#fff;
+
+}
+.menu-bar ul li
+{
+width:200px;
+margin:1px;
+padding:15px;
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+background-color:none;
+border-radius:5px;
+}
+.menu-bar .fa
+{
+margin-right:8px;
+}
+.sub-menu-1
+{
+display:none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background-color:darkslategray;
+width: 180px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:20px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width:210px;
+
+padding:10px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:white;
+}
+.fa-angle-right
+{
+float:left;
+text-align:left;
+}
+.sub-menu-2
+{
+  display: none;
+  width: 230px;
+  
+}
+.hover-me:hover .sub-menu-2
+{
+  position: absolute;
+  display: block;
+  margin-top: -10px;
+  margin-left: 200px;
+  background-color: darkslategray;
+}
+</style>
+
+
+
+
+
+</style>
+
+<div class="menu-bar">
+<ul>
+ <li><a href="dash1.php"><img src="logo.png"  style="margin-top:-8px;"alt="logo" width="120" height="40"></a></li>
+<li><a href="dash1.php"><i class="fa fa-home" aria-hidden="true"></i><b>HOME</b></a></li>
+<li><a href="nocform1.php"><i class="fa fa-wpforms" aria-hidden="true"></i><b>FORM</b></a></li>
+<li><a href="nocview.php"><i class="fa fa-list-alt" aria-hidden="true"></i><b>VIEW</b></a></li>
+<li><a href="noctwodate.php"><i class="fa fa-search" aria-hidden="true"></i><b>SEARCH</b></a></li>
+<li><i class="fa fa-arrow-circle-up" aria-hidden="true"></i><b>EXPORT</b>
+  <div class="sub-menu-1">
+<ul>
+  <li>
+  <a href="nocexport.php"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i><b>EXPORT ALL</b></a>
+</li>
+  <li>
+  <a href="nocsearchexport.php"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i><b>SEARCH EXPORT</b></a></li>
+  <li>
+  <a href="nocexportpdf.php"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i><b>EXPORT PDF</b></a></li>
+  
+</ul>
+</div>    
+</li>
+</ul>
+</div>
+<br>
+<div align="right">
+</div>
+</body>
