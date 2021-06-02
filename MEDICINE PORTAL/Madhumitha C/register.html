@@ -1,0 +1,105 @@
+<html>
+<title>Register</title>
+<?php 
+include 'db1.php';
+?>
+<body background="banner.jpg" style="font-family:Georgia;">
+<center>
+<br/><br/>
+<h1 style="color:blue"><i>REGISTER</i></h1>
+<font size="6">
+<marquee>Create an account</marquee>
+</font>
+<br/><br/>
+<form action="register.php" method="post">
+<font size="7">
+<table style="color:purple" style="font-size:200px">
+<tr>
+<td>
+PATIENT ID:
+</td>
+<td>
+<input type="text" placeholder="ID" name="">
+</td>
+</tr>
+<tr>
+<td>
+PATIENT NAME:
+</td>
+<td>
+<input type="text" placeholder="Name" name="">
+</td>
+</tr>
+<tr>
+<td>
+AGE:
+</td>
+<td>
+<input type="text" placeholder="age" name="">
+</td>
+</tr>
+<tr>
+<td>
+GENDER:
+</td>
+<td>
+<input type="radio" placeholder="Gender" name="">Male
+<input type="radio" placeholder="Gender" name="">Female
+</td>
+</tr>
+<tr>
+<td>
+EMAIL:
+</td>
+<td>
+<input type="text" placeholder="Email" name="">
+</td>
+</tr>
+<tr>
+<td>
+ADDRESS:
+</td>
+<td>
+<input type="text" placeholder="Address"  name="">
+</td>
+</tr>
+<tr>
+<td>
+PHONE NO:
+</td>
+<td>
+<select>
+<option>91</option>
+<option>65</option>
+<option>81</option>
+<option>85</option>
+<option>95</option>
+</select>
+<input type="phone" placeholder="Phone no" name="">
+</td>
+</tr>
+<tr>
+<td>
+USERNAME:
+<td>
+<input type="text" placeholder="Username" name="">
+</td>
+</tr>
+<tr>
+<td>
+PASSWORD:
+</td>
+<td>
+<input type="password" placeholder="Password" name="">
+</td>
+</tr>
+</table>
+</font><br/>
+<font size="7">
+<button style="color:deeppink"><a href="db1.php">SUBMIT</a></button>
+<button style="color:deeppink"><a href="login.html">LOGIN</button>
+</font>
+</form>
+</center>
+</body>
+</html>

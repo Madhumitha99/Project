@@ -1,0 +1,49 @@
+<html>
+<title>consulting</title>
+<link href="sty.css" rel="stylesheet"type="text/css">
+<head>
+<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+</head>
+<body>
+<ul class ="main-nav">
+<li class="active"><a href="madhumaga.html">HOME</a></li>
+<li><a href="">MY PROFILE</a></li>
+<li><a href="">DOCTOR SEARCH</a></li>
+<li><a href="">FEEDBACK</a></li>
+<li><a href="login.html">LOGOUT</a></li>
+</ul>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
+<center>
+<button>DISEASE PREDICTION</button>
+<br/><br/><br/>
+<form style="font-size:160%">
+Please Enter a symptom:
+<select name="list" id="list" accesskey="target">
+<option value="headache1.html">Headache</option>
+<option value="fever1.html">Fever</option>
+<option value="cough.html">Heavy Cough</option>
+<option value="weight.html">Weight loss</option>
+<option value="sob1.html">Shortness of Breath</option>
+<option value="lump.html">Lump in the Breast</option>
+<option value="rash1.html">Rashes on the Skin</option>
+<option value="sps.html">Severe pain in stomach</option>
+</select><br/><br/>
+<font size="5">
+<input type=button value="NEXT" onclick="goToNewPage()" />
+</font>
+</form>
+<br/><br/>
+</center>
+</body>
+</html>
+

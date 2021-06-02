@@ -1,0 +1,34 @@
+body
+{
+margin:0;
+padding:0;
+background:url(pic5.jpg) no-repeat;
+height:100vh;
+background-size:1390px 450px;
+background-position:top;
+}
+.main-nav
+{
+float:right;
+list style:none;
+margin top: 30px;
+}
+.main-nav li
+{
+display:inline-block;
+}
+.main-nav li a
+{
+color:blue;
+padding:8px;
+font-family:"Roboto",sans-serif;
+font-size::15px;
+}
+.main-nav li.active a
+{
+border:1px solid purple;
+}
+.main-nav li a:hover
+{
+border:1px solid purple;
+}
